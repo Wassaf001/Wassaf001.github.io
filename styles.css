@@ -121,3 +121,30 @@ h1{
 .project-image img.active {
     display: block;
 }
+
+.resume-container {
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+.resume-container iframe {
+    border: 1px solid var(--header-bg);
+    border-radius: 8px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    background-color: var(--link-color);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: rgb(78, 56, 125);
+}
