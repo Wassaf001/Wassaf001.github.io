@@ -148,3 +148,78 @@ h1{
 .download-button:hover {
     background-color: rgb(78, 56, 125);
 }
+
+.blog-post {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: var(--header-bg);
+}
+
+.blog-post h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.blog-post a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+/* Add to existing CSS */
+
+.timeline {
+    position: relative;
+    padding: 1em;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--link-color);
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    position: relative;
+    margin: 2em 0;
+    padding-left: 2em;
+}
+
+.timeline-date {
+    position: absolute;
+    left: -4em;
+    width: 3em;
+    text-align: center;
+    background: var(--link-color);
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.timeline-content {
+    background: var(--header-bg);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h2 {
+    margin-top: 0;
+}
+
+.timeline-content p {
+    margin-bottom: 0;
+}
